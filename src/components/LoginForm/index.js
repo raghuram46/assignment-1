@@ -51,7 +51,7 @@ class LoginPage extends Component {
             value={password}
             className="input"
           />
-          <p className="label">Upload a file</p>
+          <p className="label">UPLOAD FILE</p>
           <InputFileReader />
           <button type="submit" className="login-button">
             Login

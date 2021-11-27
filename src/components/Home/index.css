@@ -1,7 +1,13 @@
 .container {
-  padding: 20px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .user-list-container {
@@ -18,7 +24,6 @@
   font-size: 18px;
   background-color: blue;
   color: white;
-  align-self: flex-end;
   padding: 5px 15px 5px 15px;
   font-weight: 500;
   font-family: 'Roboto';

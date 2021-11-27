@@ -30,9 +30,12 @@ class Home extends Component {
 
     return (
       <div className="container">
-        <button type="button" className="logout-button">
-          Logout
-        </button>
+        <div className="header">
+          <h1 className="heading">Users Data</h1>
+          <button type="button" className="logout-button">
+            Logout
+          </button>
+        </div>
         {isLoading ? this.renderLoadingView() : this.renderUserData()}
       </div>
     )
