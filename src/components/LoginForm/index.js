@@ -51,15 +51,7 @@ class LoginPage extends Component {
             value={password}
             className="input"
           />
-          <label htmlFor="file" className="label">
-            UPLOAD FILE
-          </label>
-          <input
-            id="file"
-            type="file"
-            onChange={this.onFileChange}
-            className="input"
-          />
+          <p className="label">Upload a file</p>
           <InputFileReader />
           <button type="submit" className="login-button">
             Login
